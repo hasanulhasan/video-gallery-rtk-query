@@ -15,7 +15,7 @@ export default function Video() {
     if (!isLoading && isError) content = <Error message='There was an error' />
     if (!isLoading && !isError && video?.id) {
         content = <><Player link={video.link} title={video.title} />
-            <Description /></>
+            <Description video={video} /></>
     }
 
     return (
@@ -25,7 +25,7 @@ export default function Video() {
                     <div className="col-span-full w-full space-y-8 lg:col-span-2">
                         {content}
                     </div>
-                    {video?.id ? <RelatedVideos /> : isLoading ? <><RelatedVideoLoader /></> : <Error message='there was ana error' />}
+                    {video?.id ? <RelatedVideos id={video.id} title={video.title} /> : isLoading ? <><RelatedVideoLoader /></> : <Error message='there was ana error' />}
                 </div>
             </div>
         </section>
