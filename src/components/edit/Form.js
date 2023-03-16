@@ -1,7 +1,9 @@
 import TextArea from "../ui/TextArea";
 import TextInput from "../ui/TextInput";
 
-export default function Form() {
+export default function Form({ video }) {
+    const { } = video;
+
     return (
         <form action="#" method="POST">
             <div className="shadow overflow-hidden sm:rounded-md">
