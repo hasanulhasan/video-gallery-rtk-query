@@ -4,7 +4,8 @@ import Form from "./Form";
 
 export default function EditVideo() {
     const { videoId } = useParams();
-    const { date: video, isLoading, isError } = useGetVideoQuery(videoId);
+    const { data: video, isLoading, isError } = useGetVideoQuery(videoId);
+
     let content = null;
     if (isLoading) content = <div>Loading..</div>
     if (!isLoading && isError) content = <div>There is an error..</div>

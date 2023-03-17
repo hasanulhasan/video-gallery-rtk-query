@@ -76,28 +76,6 @@
       "views": "2.1k",
       "link": "https://www.youtube-nocookie.com/embed/smDa6hoxLKI",
       "thumbnail": "https://i3.ytimg.com/vi/smDa6hoxLKI/maxresdefault.jpg"
-    },
-    {
-      "title": "test",
-      "author": "test",
-      "description": "test",
-      "link": "test",
-      "thumbnail": "test",
-      "duration": "45",
-      "date": "45",
-      "views": "64",
-      "id": 8
-    },
-    {
-      "title": "test",
-      "author": "test",
-      "description": "test",
-      "link": "test",
-      "thumbnail": "test",
-      "duration": "20",
-      "date": "20",
-      "views": "20",
-      "id": 9
     }
   ]
 }

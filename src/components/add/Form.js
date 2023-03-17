@@ -41,7 +41,6 @@ export default function Form() {
             views,
         })
         resetForm();
-
     }
 
     return (
